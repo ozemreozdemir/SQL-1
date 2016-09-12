@@ -12,9 +12,9 @@ What happened?
 
 3. pc1, c2(s?1(s?2(pc1, c2, c3, c5(R))))  
 Where 
-ï ?1: C1 = C5; 
-ï ?2: C5 = ìTestî; 
-ï R:  MyTable; 
+‚Ä¢ ?1: C1 = C5; 
+‚Ä¢ ?2: C5 = ‚ÄúTest‚Äù; 
+‚Ä¢ R:  MyTable; 
 a. Write a SQL statement that declares the intent of the algebraic notation 
 b. Simplify the algebraic statement.  Simplification means minimize the number of parentheses and terms. 
 
@@ -23,6 +23,6 @@ a. Write out an equivalent in relational algebra using the join operator
 b. Write out an equivalent in relational algebra without using the join operator 
 
 5. pS.C1, R.C2(s?1(R) ??2 S)     
-where  ï ?1  = (R.C2 = ëAí) ï ?2 = (R.C1 = S.C2) 
-ï Write out equivalent SQL and test this SQL using relations R and S that you create for this example.  
-The relations R and S in RelationalAlgebraAndSQL.pdf and RelationalAlgebraAndSQL.sql donít quite work because their column types do not match for this assignment.
+where  ‚Ä¢ ?1  = (R.C2 = ‚ÄòA‚Äô) ‚Ä¢ ?2 = (R.C1 = S.C2) 
+‚Ä¢ Write out equivalent SQL and test this SQL using relations R and S that you create for this example.  
+The relations R and S in RelationalAlgebraAndSQL.pdf and RelationalAlgebraAndSQL.sql don‚Äôt quite work because their column types do not match for this assignment.
